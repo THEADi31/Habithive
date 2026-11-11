@@ -11,3 +11,9 @@ pubspec.lock
 android/.gradle/
 android/local.properties
 ios/Pods/
+
+# Firebase secrets — never commit the real files
+lib/firebase_options.dart
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+ios/firebase_app_id_file.json
